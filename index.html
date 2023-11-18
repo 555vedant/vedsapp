@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <title>Chat with Vedant Kasar</title>
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+          <link rel="stylesheet" href="v.css">
+          <script src="v.js"></script>
+        
+        
+        
+    </head>
+    <body>
+    <header id="profileee">
+    <div id="profile">
+        <table >
+            <tr>
+                <td> 
+                <img class="back" src="https://i.ibb.co/7SDjjnQ/1623222952267.png" />
+                </td>
+                <td>
+                <img class="propic" src="https://i.ibb.co/YT9hcr6/1623223375454.png" />
+                </td>
+                <td class="numberandstatus">
+                <p id="num"> Vedant Kasar</p>
+                <p id="status"> </p>
+                </td>
+                <td>
+                <img onclick="videocall()"class="vidcall" src="https://i.ibb.co/8BnfR0q/1623226574154.png" />
+                </td>
+                <td>
+                <img onclick="voicecall()" class="voicall" src="https://i.ibb.co/XxShn6N/1623227258527.png" />              
+                </td>
+                <td>
+                <img onclick="options()" id="tdots" src="https://i.ibb.co/TDyFkzY/1623227537846.png" />
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="about">
+         The Vedsapp
+    </div>
+    </header>
+    
+    <img id="today" src="https://i.ibb.co/N99Wd8b/1623245987072.png" />
+     <br />
+    <br/>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+    <div id="body">
+    <!--   <div id="message">
+       
+        <table>
+        <tr>
+          <td id="messagetext">
+            Hi ra 
+          </td>
+          <td id="senttime">
+             10:30
+          </td>
+          <td id="ticks">
+             <img id="seen" class="seen" src="https://i.ibb.co/zXhFd47/1623303238616.png" />
+          </td>
+        </tr>
+        </table>
+        
+       </div> -->
+
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <footer id=chatbox>
+        
+        <table id="bottomtable">
+         <tr>
+         <td class="typehere">
+         
+    <input onkeyup="check()" id="data" type="textarea" name="message" value="" placeholder="Type a message" />
+         </td>
+         <td >
+           <img id="mic" onclick="send()" src="https://i.ibb.co/FK02KRm/1623237639167.png" />
+         </td>
+         </tr>
+        </table>
+    </footer>
+      <img onclick="sound()"id="stickers" src="https://i.ibb.co/3T9vPWS/1623240304838.png"/>
+      <img onclick="sound()" id="doc"
+src="https://i.ibb.co/MkcFwd6/1623244609021.png" />
+      <img onclick="sound()" id="cam"
+src="https://i.ibb.co/48qdqW5/1623244904338.png" />
+
+<header id="blank" onclick="disable()">
+</header>
+<div id="voicecall">
+    <br>
+    
+    <p> Start Voice Call? </p>
+    
+    <table align="right">
+        <tr>
+            <td onclick="disable()">
+               CANCEL
+            </td>
+            
+            <td onclick="sound()">
+            <a onclick="sound()" href="tel:+91 7558636387" >
+               CALL
+            </a>
+            </td>
+            
+        </tr>
+    </table>
+</div>
+
+<div id="videocall">
+    <br>
+    
+    <p> Start Video Call? </p>
+    
+    <table align="right">
+        <tr>
+            <td onclick="disable()">
+               CANCEL
+            </td>
+            
+            <td onclick="sound()">
+               CALL
+            </td>
+            
+        </tr>
+    </table>
+</div>
+
+<div id="options">
+    <div class="opt" onclick="sound()"> View Contact </div>
+    <div class="opt" onclick="sound()"> Media,links and docs </div>
+    <div class ="opt" onclick="block()"> Block </div>
+    <div class="opt" onclick="sound()"> Mute Notifications </div>
+    <div class = "opt" onclick="sound()"> Wallpaper </div>
+    <div class = "opt" onclick="options2()"> More   </div>
+    <div onclick="options2()"> <img src="https://i.ibb.co/QbdqJPd/1623588174588.png" /> </div>
+</div>
+
+<div id="options2">
+    <div class="opt" onclick="sound()"> Report </div>
+    <div class="opt" onclick="sound()"> Clear chat</div>
+    <div class="opt" onclick="sound()"> Export chat </div>
+   
+
+
+  </body>
+</html>
